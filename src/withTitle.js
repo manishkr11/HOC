@@ -7,7 +7,8 @@ const withTitle = (WrappedComponent) => {
             super(props)
         
             this.state = {
-                 title: 'React Js'
+                 title: 'React Js',
+                 technology: 'Frontend'
             }
         }
         

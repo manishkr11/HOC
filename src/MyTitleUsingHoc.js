@@ -3,10 +3,11 @@ import withTitle from './withTitle'
 
 
 
-const myTitleUsingHoc = ({title}) => {
+const myTitleUsingHoc = ({title, technology}) => {
     return (
         <div>
-            Title: {title}
+            <span>Title: {title}</span> 
+            <span>Techonology: {technology}</span>
         </div>
     )
 }
