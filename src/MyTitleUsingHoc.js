@@ -3,10 +3,10 @@ import withTitle from './withTitle'
 
 
 
-const myTitleUsingHoc = (props) => {
+const myTitleUsingHoc = ({title}) => {
     return (
         <div>
-            {props.title}
+            Title: {title}
         </div>
     )
 }
