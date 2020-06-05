@@ -1,7 +1,7 @@
 import React from 'react';
 import withSecretToLife from './withSecretToLife';
 
-const DisplayTheSecret = props => (console.log(props),
+const DisplayTheSecret = props => (
   <div>
     The secret to life is {props.secretToLife}.
     <hr/>
